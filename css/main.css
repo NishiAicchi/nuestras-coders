@@ -6,31 +6,18 @@ body {
 }
 
 .coders {
-    outline: 1px solid #0000ff;
+    /*outline: 1px solid #0000ff;*/
     display: inline-block;
     position: relative;
        
 }
 
-.coders img {
+.coders img {/* foto de las coders*/
+    /*outline: 1px solid yellow;*/
     float: left;
     width: 160px;
     height: 160px;
     margin: 15px;
-}
-
-figure { /*contenedor*/
-    outline: 1px solid green;*/
-    margin-top: 20px;
-    overflow: auto;
-    padding: 0px;
-    width: 600px;
-    height: 400px;
-}
-
-#title {
-    
-    font-size: 24px;
 }
 
 .coders span { /*nombres de las coders*/
@@ -39,6 +26,32 @@ figure { /*contenedor*/
     font-size: 15px;
     font-weight: 800px;
     position: absolute;
-    right: 15px;
-    bottom: 15px;
+    right: 20px;
+    bottom: 20px;
 }
+
+figure { /*contenedor*/
+   /* outline: 1px solid green;*/
+    margin-top: 20px;
+    overflow: auto;
+    padding: 0px;
+    width: 600px;
+    height: 400px;
+}
+
+h1 { /*encabezado*/
+    font-size: 24px;
+    margin-left: 55px;
+    margin-bottom: 0;
+}
+
+#line hr { /*linea debajo del encabezado*/
+    display: block;
+    border: 2px solid rgba(0, 0, 0, 0.932);
+    border-style: inset;
+    margin-left: 55px;
+    margin-right: 780px;
+
+
+}
+
