@@ -1,0 +1,32 @@
+body {
+    box-sizing: border-box;
+    display: block;
+    position: fixed;
+    padding: 0;
+}
+
+figure .coders {
+    float: left;
+    outline: 1px solid #0000ff;
+    margin: 30px;
+}
+
+
+img {
+    width: 140px;
+    height: 145px;
+    max-height: 100%;
+}
+
+#title {
+    font-family: 'Overpass Mono', monospace;
+    font-size: 
+
+}
+
+span {
+    outline: 1px solid black;
+    position: absolute;
+    left: 60px;
+    color: white;
+}
