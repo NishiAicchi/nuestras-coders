@@ -42,7 +42,7 @@ figure { /*contenedor*/
 h1 { /*encabezado*/
     font-size: 24px;
     margin-left: 55px;
-    margin-bottom: 0;
+    margin-bottom: 10px;
 }
 
 #line hr { /*linea debajo del encabezado*/
