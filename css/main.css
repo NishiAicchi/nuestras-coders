@@ -1,29 +1,44 @@
 body {
     box-sizing: border-box;
-    position: fixed;
     padding: 0;
     font-family: 'Overpass Mono',
     monospace;
 }
 
-figure .coders {
+.coders {
     outline: 1px solid #0000ff;
-    width: 200px;
-    height: 200px;
-    
+    display: inline-block;
+    position: relative;
+       
 }
 
+.coders img {
+    float: left;
+    width: 160px;
+    height: 160px;
+    margin: 15px;
+}
+
+figure { /*contenedor*/
+    outline: 1px solid green;*/
+    margin-top: 20px;
+    overflow: auto;
+    padding: 0px;
+    width: 600px;
+    height: 400px;
+}
 
 #title {
     
-    font-size: 
-
+    font-size: 24px;
 }
 
-span {
-    outline: 1px solid black;
+.coders span { /*nombres de las coders*/
+    /*outline: 1px solid black;*/
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: 800px;
     position: absolute;
-    left: 20px;
-    bottom: 30px;
-    color: white;
+    right: 15px;
+    bottom: 15px;
 }
