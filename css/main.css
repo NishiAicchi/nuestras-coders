@@ -1,25 +1,21 @@
 body {
     box-sizing: border-box;
-    display: block;
     position: fixed;
     padding: 0;
+    font-family: 'Overpass Mono',
+    monospace;
 }
 
 figure .coders {
-    float: left;
     outline: 1px solid #0000ff;
-    margin: 30px;
+    width: 200px;
+    height: 200px;
+    
 }
 
-
-img {
-    width: 140px;
-    height: 145px;
-    max-height: 100%;
-}
 
 #title {
-    font-family: 'Overpass Mono', monospace;
+    
     font-size: 
 
 }
@@ -27,6 +23,7 @@ img {
 span {
     outline: 1px solid black;
     position: absolute;
-    left: 60px;
+    left: 20px;
+    bottom: 30px;
     color: white;
 }
